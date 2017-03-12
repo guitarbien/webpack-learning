@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/webpack src/main.js dist/bundle.js"
+    "build": "./node_modules/.bin/webpack src/main.js dist/bundle.js",
+    "watch": "./node_modules/.bin/webpack src/main.js dist/bundle.js --watch"
   },
   "keywords": [],
   "author": "",
