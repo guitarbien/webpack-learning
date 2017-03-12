@@ -1,6 +1,3 @@
-// import notification from './Notification';
+class Form {
 
-// notification.announce('Here is my message');
-// notification.log('Here is my message');
-
-require('./main.css');
+}
