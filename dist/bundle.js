@@ -71,15 +71,18 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (immutable) */ __webpack_exports__["a"] = notify;
-/* harmony export (immutable) */ __webpack_exports__["b"] = log;
-function notify (message) {
+function announce (message) {
     alert(message);
 }
 
 function log (message) {
     console.log(message);
 }
+
+/* harmony default export */ __webpack_exports__["a"] = {
+    announce: announce,
+    log: log
+};
 
 
 /***/ }),
@@ -91,8 +94,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Notification__ = __webpack_require__(0);
 
 
-__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__Notification__["a" /* notify */])('Here is my message');
-__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__Notification__["b" /* log */])('Here is my message');
+__WEBPACK_IMPORTED_MODULE_0__Notification__["a" /* default */].announce('Here is my message');
+__WEBPACK_IMPORTED_MODULE_0__Notification__["a" /* default */].log('Here is my message');
 
 
 /***/ })
