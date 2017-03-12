@@ -76,8 +76,15 @@
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 var Form = function Form() {
-  _classCallCheck(this, Form);
+    _classCallCheck(this, Form);
+
+    var numbers = [5, 10, 15].map(function (number) {
+        return number * 2;
+    });
+    console.log(numbers);
 };
+
+new Form();
 
 /***/ })
 /******/ ]);
