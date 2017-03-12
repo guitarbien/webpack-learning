@@ -70,7 +70,12 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-alert('change this');
+function notify(message) {
+    alert(message);
+}
+
+notify('Here is my message');
+
 
 /***/ })
 /******/ ]);
