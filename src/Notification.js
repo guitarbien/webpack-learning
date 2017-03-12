@@ -1,3 +1,3 @@
-function notify(message) {
+export default function (message) {
     alert(message);
 }
