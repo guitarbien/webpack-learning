@@ -72,8 +72,13 @@
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = notify;
+/* harmony export (immutable) */ __webpack_exports__["b"] = log;
 function notify (message) {
     alert(message);
+}
+
+function log (message) {
+    console.log(message);
 }
 
 
@@ -87,6 +92,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__Notification__["a" /* notify */])('Here is my message');
+__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__Notification__["b" /* log */])('Here is my message');
 
 
 /***/ })
