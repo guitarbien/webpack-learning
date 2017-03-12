@@ -31,7 +31,10 @@ module.exports = {
         ]
     },
     plugins: [
-        new ExtractTextPlugin('[name].css')
+        new ExtractTextPlugin('[name].css'),
+        new webpack.LoaderOptionsPlugin({
+            minimize: inProduction
+        })
     ]
 };
 
